@@ -32,11 +32,10 @@ export default {
     methods: {
         downloadFile() {
             const link = document.createElement('a');
-            link.href = this.pdf; // Use the 'about' data property as the file URL
-            link.setAttribute('download', 'cv.pdf'); // Set the desired file name and extension
+            link.href = this.pdf; 
+            link.setAttribute('download', 'cv.pdf'); 
             document.body.appendChild(link);
             link.click();
-            // document.body.removeChild(link);
         }
     }
 }

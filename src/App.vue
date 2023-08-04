@@ -11,7 +11,7 @@
             <div ref="portfolioSection">
                 <Portfolio />
             </div>
-            <div ref="contactMe">
+            <div ref="contactSection">
                 <ContactMe />
             </div>
             <RouterView />

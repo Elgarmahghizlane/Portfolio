@@ -34,7 +34,7 @@ export default {
                 { name: 'Home', ref: 'headSection' },
                 { name: 'About', ref: 'aboutSection' },
                 { name: 'Portfolio', ref: 'portfolioSection' },
-                { name: 'contact', url: '/#' },
+                { name: 'contact', ref: 'contactSection' },
             ],
             logo: logo,
             isMenuOpen: false,
@@ -55,7 +55,7 @@ export default {
 @media (min-width: 768px) {
     .max-w-6xl {
         max-width: 1440px;
-        /* Adjust this value to your desired maximum width */
+        
     }
 }
 </style>
